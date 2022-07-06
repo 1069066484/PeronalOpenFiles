@@ -1,0 +1,62 @@
+用多层次多区域匹配来解决细粒度的草图-图像检索问题
+1. 已发表论文Multi-Level Region Matching for Fine-Grained Sketch-Based Image Retrieval. Zhixin Ling, Zhen Xing, Jiangtong Li, Li Niu*. ACMMM2022 (CCF A)
+2. 针对图片和草图，提出成对区域特征提取方法。
+3. 基于注意力机制，我们提出综合多层多区域特征匹配度的方法。
+4. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B61-ACMMM2022_Multi_Level_Region_Matching_for_Fine_Grained_Sketch_Based_Image_Retrieval.pdf
+
+
+提出以图像为条件的素描重建来解决细粒度草图-图像检索问题
+1. 已发表论文Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval. Zhixin Ling, Zhen Xing, Xiangdong Zhou*. ECCV2022 (CCF B)
+2. 我们提出一套无监督打乱素描线条的方法，并以成对的图像为条件，要求网络重建出原素描。
+3. 我们提出跨风格的双锚点对比损失。
+4. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B64-ECCV2022_Conditional_Stroke_Recovery_for_Fine_Grained_Sketch_Based_Image_Retrieval.pdf
+
+
+
+用双向解耦方法解决零示例草图-图像检索问题
+1. 已发表论文Zero-Shot Sketch-Based Image Retrieval with Structure-aware Asymmetric Disentanglement. Jiangtong Li, Zhixin Ling, Li Niu*. CVIU2022 (CCF B)
+2. 把图像解耦为结构和外表特征，并把草图特征转化为结构特征。
+3. 实现多特征空间可以互补，综合各空间距离可以有效提高检索性能。
+4. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B62-CVIU2022_Zero_Shot_Sketch_Based_Image_Retrieval_with_Structure_aware_Asymmetric_Disentanglement.pdf
+
+
+提出图像和谐化方法和和谐化数据集
+1. 已发表论文DoveNet: Deep Image Harmonization via Domain Verification. Wenyan Cong, Jianfu Zhang, Li Niu, Liu Liu, Zhixin Ling, Weiyuan Li, Liqing Zhang*. CVPR2020 (CCF A)
+2. 负责数据集的标注、筛选和对齐。
+3. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B63-CVPR2020_DoveNet_Deep_Image_Harmonization_via_Domain_Verification.pdf
+
+
+提出支持缓存池先验的对比学习网络来解决少样本三维物体重建问题。 
+1. 已发表论文Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network. Zhen Xing, Yijiang Chen, Zhixin Ling, Xiangdong Zhou, Yu Xiang. ECCV2022 (CCF B)
+2. 在三维物体重建的过程中加入形状先验，更好地控制重建形状。
+3. 提出3D敏感的对比学习损失，高效地同时学习批内所有正样本之间的距离。
+4. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B69-ECCV22_Few_shot_Single_view_3D_Reconstruction_with_Memory_Prior_Contrastive_Network.pdf
+
+
+将SwinTransformer适应于全景任务(检测、分类、布局等)
+1. 针对全景图片，提出了新的滑动窗口方法以及位置编码来解决畸变问题。
+2. 提出把平面知识迁移到全景图片的方法，先把平面知识迁移到赤道，再用通过旋转一致性把赤道知识迁移到两极。
+3. 论文准备投稿，PanoSwin: A Panoramic Shift Windowing Scheme for Panoramic Tasks. Zhixin Ling, Xiangdong Zhou*。
+4. 初步稿件见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B65-PanoSwin_A_Panoramic_Shift_Windowing_Scheme_for_Panoramic_Tasks.pdf
+
+
+提出有选择性的多尺度导师学习方法解决零示例草图-图像检索问题
+1. 对图片进行多尺度的分割，选择出有目标物体的区域，高效地施加知识保留损失。
+2. 发现并解决类别粒度不匹配对知识保留的负面影响。
+3. 提出SketchMix和RandomThickening两种草图数据增强方法。
+4. 论文投稿中，SKP: Selective Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval. Zhixin Ling, Jian Zhou, Xiangdong Zhou*. 
+5. 初步稿件见，https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B66-Selective_Knowledge_Preservation_for_Zero_Shot_sketch_based_image_retrieval.pdf
+
+
+将Yolo目标检测框架适应于全景图片的目标检测问题
+1. 我们在数据增强、测试方法、边缘补充等方面做出了改进
+2. 相关内容见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B67-%E5%B0%86%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A1%86%E6%9E%B6%E9%80%82%E5%BA%94%E4%BA%8E%E5%85%A8%E6%99%AF%E5%9B%BE%E7%89%87%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E9%97%AE%E9%A2%98.pptx
+
+
+字节跳动
+计算机视觉实习生
+1. 调研扩散模型在图像生成任务中的研究，初步内容见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B68-A_Simple_Survey_on_Diffusion_Models_for_Image_Synthesis_Since_2020.pdf
+2. 参与构建自动配色项目，提取图片中显著物体和文本的配色。
+
+
+
