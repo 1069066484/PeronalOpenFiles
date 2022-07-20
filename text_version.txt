@@ -6,7 +6,7 @@
 构建模型、运行试验、撰写论文、投稿发表
 
 提出以图像为条件的草图重建来解决细粒度草图-图像检索问题（ECCV2022一作）
-1. 已发表论文Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval. Zhixin Ling, Zhen Xing, Xiangdong Zhou*. ECCV2022 (CCF B)
+1. 已发表论文Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval. Zhixin Ling, Zhen Xing, Jian Zhou, Xiangdong Zhou*. ECCV2022 (CCF B)
 2. 我们提出一套无监督打乱素描线条的方法，并以成对的图像为条件，要求网络重建出原素描。
 3. 我们提出跨风格的双锚点对比损失。
 4. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B64-ECCV2022_Conditional_Stroke_Recovery_for_Fine_Grained_Sketch_Based_Image_Retrieval.pdf
