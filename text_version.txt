@@ -41,7 +41,7 @@
 4. 初步稿件见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B65-PanoSwin_A_Panoramic_Shift_Windowing_Scheme_for_Panoramic_Tasks.pdf
 构建模型、运行试验、撰写论文、投稿发表
 
-提出有选择性的多尺度导师学习方法解决零示例草图-图像检索问题
+提出有选择性多尺度知识保留解决零示例草图-图像检索问题
 1. 对图片进行多尺度的分割，选择出有目标物体的区域，高效地施加知识保留损失。
 2. 发现并解决类别粒度不匹配对知识保留的负面影响。
 3. 提出SketchMix和RandomThickening两种草图数据增强方法。
