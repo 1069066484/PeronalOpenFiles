@@ -54,10 +54,23 @@
 2. 相关内容见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B67-%E5%B0%86%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A1%86%E6%9E%B6%E9%80%82%E5%BA%94%E4%BA%8E%E5%85%A8%E6%99%AF%E5%9B%BE%E7%89%87%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E9%97%AE%E9%A2%98.pptx
 构建模型、运行试验、部署模型
 
+搭建支持纹理压缩的全景图片展示系统
+1.用HTML+JS+THREE在前端渲染全景图片。 
+2.后端用python封装了编译好的basis压缩算法，减少全景图片传输时间。
+
+用Qt5框架(C++ & QML)实现双人贪吃蛇游戏 2017.01-2018.03
+1. 分别设定两只贪吃蛇不同速度、难度和角色。
+2. 实现自带地图编辑器。
+3. 实现不同的AI, PvP和局域网联机。
+
 字节跳动
 计算机视觉实习生
 1. 调研扩散模型在图像生成任务中的研究，初步内容见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B68-A_Simple_Survey_on_Diffusion_Models_for_Image_Synthesis_Since_2020.pdf
 2. 参与构建自动配色项目，提取图片中显著物体和文本的配色。
+
+
+
+
 
 
 自我评价
