@@ -55,8 +55,8 @@
 构建模型、运行试验、部署模型
 
 搭建支持纹理压缩的全景图片展示系统
-1.用HTML+JS+THREE在前端渲染全景图片。 
-2.后端用python封装了编译好的basis压缩算法，减少全景图片传输时间。
+1. 用HTML+JS+THREE在前端渲染全景图片。 
+2. 后端用python封装了编译好的basis压缩算法，减少全景图片传输时间。
 3. 项目地址见https://github.com/1069066484/PanoView。
 
 用Qt5框架(C++ & QML)实现双人贪吃蛇游戏 2017.01-2018.03
@@ -69,6 +69,7 @@
 计算机视觉实习生
 1. 调研扩散模型在图像生成任务中的研究，初步内容见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B68-A_Simple_Survey_on_Diffusion_Models_for_Image_Synthesis_Since_2020.pdf
 2. 参与构建自动配色项目，提取图片中显著物体和文本的配色。
+3. 参与广告卖点自动生成项目，根据海报和标题自动生成广告卖点。
 
 
 
