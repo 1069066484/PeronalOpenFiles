@@ -1,0 +1,99 @@
+用多层次多区域匹配来解决细粒度的草图-图像检索问题(ACMMM2022一作)
+1. 已发表论文Multi-Level Region Matching for Fine-Grained Sketch-Based Image Retrieval. Zhixin Ling, Zhen Xing, Jiangtong Li, Li Niu*. ACMMM2022 (CCF A)
+2. 针对图片和草图，提出成对区域特征提取方法。
+3. 基于注意力机制，我们提出综合多层多区域特征匹配度的方法。
+4. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B61-ACMMM2022_Multi_Level_Region_Matching_for_Fine_Grained_Sketch_Based_Image_Retrieval.pdf
+构建模型、运行试验、撰写论文、投稿发表
+
+提出以图像为条件的草图重建来解决细粒度草图-图像检索问题（ECCV2022一作）
+1. 已发表论文Conditional Stroke Recovery for Fine-Grained Sketch-Based Image Retrieval. Zhixin Ling, Zhen Xing, Jian Zhou, Xiangdong Zhou*. ECCV2022 (CCF B)
+2. 我们提出一套无监督打乱素描线条的方法，并以成对的图像为条件，要求网络重建出原素描。
+3. 我们提出跨风格的双锚点对比损失。
+4. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B64-ECCV2022_Conditional_Stroke_Recovery_for_Fine_Grained_Sketch_Based_Image_Retrieval.pdf
+构建模型、运行试验、撰写论文、投稿发表
+
+
+用双向解耦方法解决零示例草图-图像检索问题（CVIU2022二作）
+1. 已发表论文Zero-Shot Sketch-Based Image Retrieval with Structure-aware Asymmetric Disentanglement. Jiangtong Li, Zhixin Ling, Li Niu*. CVIU2022 (CCF B)
+2. 把图像解耦为结构和外表特征，并把草图特征转化为结构特征。
+3. 实现多特征空间可以互补，综合各空间距离可以有效提高检索性能。
+4. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B62-CVIU2022_Zero_Shot_Sketch_Based_Image_Retrieval_with_Structure_aware_Asymmetric_Disentanglement.pdf
+构建模型、运行试验、撰写论文、投稿发表
+
+
+提出图像和谐化方法和和谐化数据集（CVPR2020五作）
+1. 已发表论文DoveNet: Deep Image Harmonization via Domain Verification. Wenyan Cong, Jianfu Zhang, Li Niu, Liu Liu, Zhixin Ling, Weiyuan Li, Liqing Zhang*. CVPR2020 (CCF A)
+2. 负责数据集的标注、筛选和对齐。
+3. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B63-CVPR2020_DoveNet_Deep_Image_Harmonization_via_Domain_Verification.pdf
+
+
+提出支持缓存池先验的对比学习网络来解决少样本三维物体重建问题（ECCV2022三作）
+1. 已发表论文Few-shot Single-view 3D Reconstruction with Memory Prior Contrastive Network. Zhen Xing, Yijiang Chen, Zhixin Ling, Xiangdong Zhou, Yu Xiang. ECCV2022 (CCF B)
+2. 在三维物体重建的过程中加入形状先验，更好地控制重建形状。
+3. 提出3D敏感的对比学习损失，高效地同时学习批内所有正样本之间的距离。
+4. 论文临时地址https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B69-ECCV22_Few_shot_Single_view_3D_Reconstruction_with_Memory_Prior_Contrastive_Network.pdf
+构建模型、撰写论文、投稿发表
+
+将SwinTransformer适应于全景目标检测任务(FasterRCNN)
+1. 针对全景图片，提出了新的滑动窗口方法以及位置编码来解决畸变问题。
+2. 提出把平面知识迁移到全景图片的方法，先把平面知识迁移到赤道，再用通过旋转一致性把赤道知识迁移到两极。
+3. 论文准备投稿，PanoSwin: A Panoramic Shift Windowing Scheme for Panoramic Tasks. Zhixin Ling, Xiangdong Zhou*。
+4. 初步稿件见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B65-PanoSwin_A_Panoramic_Shift_Windowing_Scheme_for_Panoramic_Tasks.pdf
+构建模型、运行试验、撰写论文、投稿发表
+
+提出有选择性多尺度知识保留解决零示例草图-图像检索问题
+1. 对图片进行多尺度的分割，选择出有目标物体的区域，高效地施加知识保留损失。
+2. 发现并解决类别粒度不匹配对知识保留的负面影响。
+3. 提出SketchMix和RandomThickening两种草图数据增强方法。
+4. 论文投稿中，SKP: Selective Knowledge Preservation for Zero-Shot Sketch-Based Image Retrieval. Zhixin Ling, Jian Zhou, Xiangdong Zhou*. 
+5. 初步稿件见，https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B66-Selective_Knowledge_Preservation_for_Zero_Shot_sketch_based_image_retrieval.pdf
+构建模型、运行试验、撰写论文、投稿发表
+
+将YoloV5目标检测框架适应于全景图片的目标检测问题
+1. 提出全景图片目标检测数据集。
+2. 把横向滚动、球面旋转、伸缩增强等全景数据增强方法用在全景目标检测中。 
+3. 为了避免检测到割裂的全景物体，我们提出边缘遮盖和二次测试等方案。
+4. 提高检测精度，58.3% -> 82.1% mAP 
+5. 相关内容见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B67-%E5%B0%86%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E6%A1%86%E6%9E%B6%E9%80%82%E5%BA%94%E4%BA%8E%E5%85%A8%E6%99%AF%E5%9B%BE%E7%89%87%E7%9A%84%E7%9B%AE%E6%A0%87%E6%A3%80%E6%B5%8B%E9%97%AE%E9%A2%98.pptx
+构建模型、运行试验、部署模型
+
+搭建支持纹理压缩的全景图片展示系统 2020.12-2021.10
+1. 用HTML+JS+THREE在前端渲染全景图片。 
+2. 后端用python封装了编译好的basis压缩算法，减少全景图片传输时间。
+3. 项目地址见https://github.com/1069066484/PanoView。
+代码实现、部署模型
+
+
+2017.01-2018.03
+用Qt5框架(C++ & QML)实现双人贪吃蛇游戏 
+1. 分别设定两只贪吃蛇不同速度、难度和角色。
+2. 实现自带地图编辑器、游戏保存和载入等。
+3. 实现不同的AI, PvP和局域网联机。
+4. 项目地址见https://github.com/1069066484/DoubleSnake。
+代码实现、部署模型
+
+
+
+2019.02-2019.10
+用tensorflow实现AlphaGoZero五子棋
+1. 实现五子棋双人对战逻辑。 
+2. 基本实现神经网络支持的蒙特卡洛搜索。 
+3. 小棋盘的五子棋AI有一定棋力。
+4. 项目地址见https://github.com/1069066484/NInRow。
+代码实现
+
+
+字节跳动
+计算机视觉实习生
+1. 调研扩散模型在图像生成任务中的研究，初步内容见https://github.com/1069066484/PeronalOpenFiles/blob/main/%E9%99%84%E4%BB%B68-A_Simple_Survey_on_Diffusion_Models_for_Image_Synthesis_Since_2020.pdf
+2. 参与构建自动配色项目，提取图片中显著物体和文本的配色。
+3. 参与广告卖点自动生成项目，根据海报和标题自动生成广告卖点。
+
+
+
+
+
+
+自我评价
+我是一个自我驱动力强、敢于挑战新问题、能够独立思考的计算机视觉方向的研究生。我能够在缺乏导师监督的情况下，自我钻研课题，并发表SBIR方向的一作顶会论文两篇(MM和ECCV)。同时我也能积极关注各个方面的国际最新科研成果，去研究一些新的问题。我希望在工作中能够发挥我的能力、同时学习新的知识，同时我也要尽我最大的努力尽可能地为公司创造价值。
+
